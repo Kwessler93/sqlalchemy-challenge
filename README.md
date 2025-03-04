@@ -1,7 +1,7 @@
 # sqlalchemy-challenge
 Module 10 Challenge
 
-For this challenge, I first used SQLAlchemy ORM queries, Pandas, and Matplotlib to analyze the data provided in the hawaii.sqlite file. I then created an app so users could run their own queries from the data. All of the code for the queries and the app is located in the climate_analyze.ipynb and app.py files in the SurfsUp folder.
+For this challenge, I first used SQLAlchemy ORM queries, Pandas, and Matplotlib to analyze the data provided in the hawaii.sqlite file. I then created an app so users could access the results from these queries. All of the code for the queries and the app is located in the climate_analyze.ipynb and app.py files in the SurfsUp folder.
 
 To begin the queries in pandas I explored the precipitation for the previous 12 months and plotted it in a bar chart shown below: 
 
