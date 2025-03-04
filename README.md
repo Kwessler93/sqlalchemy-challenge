@@ -40,3 +40,25 @@ Then for the most active station (Station USC00519281), I ran a query to create 
 
 
 Once my queries were created, I created the code that would run the app. The code for the app can be found in the app.py file. 
+
+The home page for the app has five options for queries that can be run. Here is a screenshot of the home page:
+
+
+The first query that can be run, /api/v1.0/precipitation, is the precipitation analysis for the previous year. Here is a screenshot of the results:
+
+
+
+The second query, /api/v1.0/stations, provides a list of all of  the stations. Here is a screenshot:
+
+
+
+The third query, /api/v1.0/tobs, returns a list of the temperature observations for the most active station for the previous year. Here is a screenshot:
+
+
+
+The fourth query, /api/v1.0/<start>, returns the minimum, average, and maximum temperature for whatever date is specified as the start date. Here is the results of the query when the start date entered is 2016-08-23:
+
+
+
+The last query, /api/v1.0/<start>/<end>, provides the minimum, average, and maximum temperature for whatever date range is specified. Here are the results for the query when the start date is 2017-08-01 and the end date is 2017-08-23:
+
