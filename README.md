@@ -7,12 +7,12 @@ For the queries in pandas I explored the precipitation for the previous 12 month
 
 ![alt text](Images/prcp_bar.png)
 
-I then ran the summary statistics for the precipitation data to get the follow results: 
+I then ran the summary statistics for the precipitation data to get the following results: 
 
 ![alt text](Images/prcp_stats.png)
 
 
-I then started to exposure the station data provided in the hawaii.sqlite file. First I ran a query to see which stations were the most active by counting how many measurements there were for each station, then sorting them in descending order to see which station was the most active. The following are the results:
+I then started to explore the station data provided in the hawaii.sqlite file. First I ran a query to see which stations were the most active by counting how many measurements there were for each station, then sorting them in descending order to see which station was the most active. The following are the results:
 
 ![alt text](Images/active_stations.png)
 
@@ -20,7 +20,7 @@ I then created and ran a query to get the minimum, maximum, and average temperat
 
 [(54.0, 85.0, 71.66378066378067)]
 
-Then for the most active station (Station USC00519281), I ran a query to create a histogram for the temperature data for the previous 12 months. These are the results:
+Then for the most active station (Station USC00519281), I created and ran a query to create a histogram for the temperature data for the previous 12 months. These are the results:
 
 ![alt text](Images/temp_hist.png)
 
@@ -34,7 +34,7 @@ The first query that can be run, /api/v1.0/precipitation, is the precipitation a
 
 ![alt text](Images/api:v1.0:precipitation.png)
 
-The second query, /api/v1.0/stations, provides a list of all of  the stations. Here is a screenshot:
+The second query, /api/v1.0/stations, provides a list of all of the stations. Here is a screenshot:
 
 ![alt text](Images/api:v1.0:stations.png)
 
